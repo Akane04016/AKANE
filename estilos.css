@@ -1,0 +1,301 @@
+/* ===================== ENCABEZADO ===================== */
+body{
+  color: white;
+  background-color: #46414c;
+  letter-spacing: 2px;
+  font-family: "Jersey 10", sans-serif;
+}
+.encabezado {
+  padding: 12px 40px;
+  background-color: #0d1f1f;
+   font-family: "Jersey 10", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  border-radius: 25px;
+}
+
+.logo {
+  display: inline-block;      /* se pone al lado del menú */
+  width: 35%;
+  vertical-align: middle;
+  color: #FFFFFF;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.logo img {
+  width: 50px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.menu {
+  display: inline-block;      /* se pone al lado del logo */
+  width: 50%;                 /* 35% + 64% = 99% */
+  vertical-align: middle;
+  text-align: right;  
+  font-size: 24px;
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;           /* quita las viñetas */
+}
+
+.menu li {
+  display: inline-block;      /* enlaces en fila */
+  margin-left: 6px;
+}
+
+.menu a {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 20px;
+  color: #000000;
+  text-decoration: none;
+  background-color: #7070B8;
+}
+
+.menu a:hover {                /* CUÁNDO: mouse encima */
+  background-color: #8888bd;
+}
+.presentación{ 
+  font-family: "Jersey 10", sans-serif;
+  background-color: #8888bd;
+  border-radius: 25px;
+  padding: 8px 16px;
+}
+.presentación h2{
+  background-color: #0d1f1f;
+  padding:  16px 32px;
+  display: inline-block;
+  border-radius: 25px;
+}
+
+.presentación img {
+  width: 150px;
+  border: #46414c 3px solid;
+  border-radius: 25px;
+  display: flex;
+}
+.presentación p{
+  font-display: block ;
+  margin: 0px;
+}
+ .menu2 a{
+  color: #FFFFFF;
+  background-color: #0d1f1f;
+  padding: 16px 32px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+  border-radius: 25px;
+  
+}
+.menu2 li{
+  display: inline-block;
+  margin-left: 6px;
+  
+}
+menu2 ul{
+  margin: 0;
+  padding: 0;
+  list-style: none; 
+}
+.menu2 {
+   display: inline-block;      /* se pone al lado del logo */
+  width: 100%;                 /* 35% + 64% = 99% */
+  vertical-align: middle;
+  text-align: right;  
+  font-size: 24px;
+}
+.menu2 a:hover{
+  background-color: #193c3c;
+}
+.whatsapp {
+  font-family: "Jersey 10", sans-serif;
+  position: fixed;             /* se queda en la ventana */
+  right: 20px;
+  bottom: 20px;
+  z-index: 100;                /* por encima de todo */
+  padding: 14px 24px;
+  border-radius: 30px;
+  background-color: #25D366;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.whatsapp:hover {              /* CUÁNDO: mouse encima */
+  background-color: #1DA851;}
+  /* ===================== PIE DE PÁGINA ===================== */
+.pie {
+  padding: 40px 8% 16px;
+  background-color: #1F1F1F;
+  color: #DDDDDD;
+}
+
+.pie-col {
+  display: inline-block;       /* tres columnas */
+  width: 32%;
+  padding: 0;                  /* quita el padding general de section */
+  vertical-align: top;
+}
+
+.pie h3 {
+  color: #F59E0B;
+}
+
+.pie a {
+  color: #DDDDDD;
+  text-decoration: none;
+  line-height: 1.9;
+}
+
+.pie a:hover {                 /* CUÁNDO: mouse encima */
+  color: #F59E0B;
+}
+
+.derechos {
+  margin-top: 26px;
+  padding-top: 14px;
+  border-top: 1px solid #444444;
+  text-align: center;
+  font-size: 13px;
+}
+
+.dibujo_a_mano {
+  padding: 30px 60px;
+  background-color: #8888bd;
+  border-radius: 25px;
+  font-family: "Jersey 10", sans-serif;
+}
+.dibujo_a_mano img{
+  
+   
+  display: flex, inline-block;
+  border: #46414c 3px solid;
+  border-radius: 25px;
+  height: 250px;
+  margin-right: 50px;
+  margin-left: 60px;
+  max-width: 250px;
+  max-height: 450px;
+}
+
+.mis_trabajos h2{
+  background-color: #0d1f1f;
+  padding:  16px 32px;
+  display: inline-block;
+  border-radius: 25px;
+}
+.dibujo_digital{
+  padding: 30px 60px;
+  background-color: #8888bd;
+  border-radius: 25px;
+  margin-top: 30px;
+}
+.dibujo_digital img{
+  
+  display: flex, inline-block;
+  border: #46414c 3px solid;
+  border-radius: 25px;
+  height: 250px;
+  margin-right: 50px;
+  margin-left: 60px;
+  max-width: 250px;
+  max-height: 450px;
+}
+.logos{
+  padding: 30px 60px;
+  background-color: #8888bd;
+  border-radius: 25px;
+  margin-top: 30px;
+}
+.logos img{
+   
+  display: flex, inline-block;
+  border: #46414c 3px solid;
+  border-radius: 25px;
+  height: 250px;
+  margin-right: 50px;
+  margin-left: 60px;
+  max-width: 250px;
+  max-height: 450px;
+}
+
+.manualidades{
+  padding: 30px 60px;
+  background-color: #8888bd;
+  border-radius: 25px;
+  margin-top: 30px;
+}
+.manualidades img{
+  display: flex, inline-block;
+  border: #46414c 3px solid;
+  border-radius: 25px;
+  height: 250px;
+  margin-right: 50px;
+  margin-left: 60px;
+  max-width: 250px;
+  max-height: 450px;
+}
+.galeria{
+  padding: 30px 60px;
+  background-color: #8888bd;
+  border-radius: 25px;
+  margin-top: 30px;
+}
+.galeria img{
+  display: flex, inline-block;
+  border: #46414c 3px solid;
+  border-radius: 25px;
+  height: 250px;
+  max-width: 250px;
+  max-height: 450px;
+}
+.galeria h3{
+  background-color: #0d1f1f;
+  padding:  16px 32px;
+  border-radius: 25px;
+}
+.galeria h2{
+  display: inline-block;
+  background-color: #0d1f1f;
+  padding:  16px 32px;
+  border-radius: 25px;
+}
+.emprendimiento{
+  padding: 30px 60px;
+  background-color: #8888bd;
+  border-radius: 25px;
+  margin-top: 30px;
+}
+ .emprendimiento img{
+display: flex, inline-block;
+  border: #46414c 3px solid;
+  border-radius: 25px;
+  height: 250px;
+  max-width: 200px;
+   max-height: 450px;
+ }
+.whatsapp2{
+  right: 20px;
+  bottom: 20px;
+  z-index: 100;                /* por encima de todo */
+  padding: 14px 24px;
+  border-radius: 30px;
+  background-color: #25D366;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+.whatsapp2:hover{
+  background-color: #1DA851;}
+
